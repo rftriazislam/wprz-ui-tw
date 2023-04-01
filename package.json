@@ -1,8 +1,11 @@
 {
-  "devDependencies": {
-    "tailwindcss": "^3.3.0"
-  },
-  "dependencies": {
-    "flowbite": "^1.6.4"
-  }
+    "devDependencies": {
+        "tailwindcss": "^3.3.0"
+    },
+    "dependencies": {
+        "flowbite": "^1.6.4"
+    },
+    "scripts": {
+        "twn": "tailwindcss -i ./src/input.css -o ./dist/output.css -w"
+    }
 }
